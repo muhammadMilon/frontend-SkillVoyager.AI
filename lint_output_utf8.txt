@@ -1,0 +1,396 @@
+﻿
+> frontend-skillvoyager@0.0.0 lint
+> eslint .
+
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\components\AIMentor.jsx
+    2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  170:14  error  'error' is defined but never used                                              no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\components\Contact.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\components\Dashboard.jsx
+   11:10   error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                  no-unused-vars
+  246:9    error    'rank' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                           no-unused-vars
+  253:9    error    'nextLevelXP' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                    no-unused-vars
+  259:9    error    'studyCurrentDone' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u               no-unused-vars
+  273:9    error    'unlockedCount' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                  no-unused-vars
+  291:135  warning  React Hook useEffect has a missing dependency: 'axios'. Either include it or remove the dependency array       react-hooks/exhaustive-deps
+  322:5    warning  React Hook useEffect has a missing dependency: 'user.email'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  339:5    error    Unnecessary try/catch wrapper                                                                                  no-useless-catch
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\components\DashboardSidebar.jsx
+    3:10   error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   28:62   error  'profileCompletion' is assigned a value but never used                         no-unused-vars
+  197:325  error  Duplicate key 'display'                                                        no-dupe-keys
+  202:329  error  Duplicate key 'display'                                                        no-dupe-keys
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\components\Login.jsx
+  5:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\components\Navbar.jsx
+  11:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\components\NotificationBell.jsx
+    2:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                          no-unused-vars
+  199:6   warning  React Hook useEffect has a missing dependency: 'fetchNotifications'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\components\ProfileSections.jsx
+    2:10   error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u             no-unused-vars
+   34:49   error  'Icon' is defined but never used                                                          no-unused-vars
+  131:40   error  'Icon' is defined but never used                                                          no-unused-vars
+  183:14   error  'err' is defined but never used                                                           no-unused-vars
+  213:9    error  'addSkill' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  323:123  error  'LinkIcon' is not defined                                                                 no-undef
+  344:155  error  'ExternalLink' is not defined                                                             no-undef
+  367:113  error  'Brain' is not defined                                                                    no-undef
+  556:7    error  Duplicate case label                                                                      no-duplicate-case
+  654:7    error  Duplicate case label                                                                      no-duplicate-case
+  674:197  error  'Building2' is not defined                                                                no-undef
+  678:217  error  'Star' is not defined                                                                     no-undef
+  689:7    error  Duplicate case label                                                                      no-duplicate-case
+  716:156  error  'Building2' is not defined                                                                no-undef
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\components\Register.jsx
+  5:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\components\Settings.jsx
+  318:36  error  'Icon' is defined but never used  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\components\TermsOfService.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\components\sample.jsx
+    6:4   error  'user' is not defined          no-undef
+   14:15  error  'user' is not defined          no-undef
+   15:70  error  'user' is not defined          no-undef
+   20:85  error  'user' is not defined          no-undef
+   23:12  error  'dbUser' is not defined        no-undef
+   32:14  error  'user' is not defined          no-undef
+   35:14  error  'dbUser' is not defined        no-undef
+   50:19  error  'user' is not defined          no-undef
+   51:74  error  'user' is not defined          no-undef
+   56:89  error  'user' is not defined          no-undef
+   59:16  error  'dbUser' is not defined        no-undef
+   68:18  error  'user' is not defined          no-undef
+   71:18  error  'user' is not defined          no-undef
+  104:22  error  'handleLogout' is not defined  no-undef
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages.jsx\CoursePaymentSuccess.jsx
+   81:13  error  'reverb' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  125:12  error  'e' is defined but never used                                                           no-unused-vars
+  125:15  error  Empty block statement                                                                   no-empty
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages.jsx\Courses.jsx
+  786:21  error  'glow' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Admin\AdminDashboard.jsx
+    2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  593:14  error  'e' is defined but never used                                                  no-unused-vars
+  904:34  error  'handlePoints' is not defined                                                  no-undef
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Bookmarks\BookmarksPage.jsx
+   2:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                      no-unused-vars
+  19:17  error    'dbUser' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                             no-unused-vars
+  27:9   error    'themeTeal' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                          no-unused-vars
+  33:6   warning  React Hook useEffect has a missing dependency: 'fetchBookmarks'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  68:14  error    'err' is defined but never used                                                                                    no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Dashboard\AIRecommendedCourses.jsx
+    4:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                    no-unused-vars
+  365:14  error    'err' is defined but never used                                                                                  no-unused-vars
+  372:40  warning  React Hook useEffect has a missing dependency: 'fetchCourses'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Dashboard\ActionableDashboard.jsx
+  22:3  error  Parsing error: Unexpected token ExternalLink
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Dashboard\ProgressBar.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Dashboard\ProgressCard.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Dashboard\ProgressDashboard.jsx
+    1:50  error  'useRef' is defined but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+    2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+    2:35  error  'useMotionValue' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+    2:51  error  'useTransform' is defined but never used. Allowed unused vars must match /^[A-Z_]/u    no-unused-vars
+    2:65  error  'useSpring' is defined but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+  467:41  error  'pct' is not defined                                                                   no-undef
+  467:55  error  'totalCount' is not defined                                                            no-undef
+  467:77  error  'totalCount' is not defined                                                            no-undef
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\HelpDesk\HelpDeskPage.jsx
+    1:50  error    'useRef' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                    no-unused-vars
+    2:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                    no-unused-vars
+   65:10  error    'aiChatOpen' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                       no-unused-vars
+   65:22  error    'setAiChatOpen' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                    no-unused-vars
+   73:6   warning  React Hook useEffect has a missing dependency: 'fetchTickets'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  128:16  error    'err' is defined but never used                                                                                  no-unused-vars
+  158:14  error    'err' is defined but never used                                                                                  no-unused-vars
+  532:23  error    'ticket' is defined but never used                                                                               no-unused-vars
+  532:31  error    'fetchTickets' is defined but never used                                                                         no-unused-vars
+  536:10  error    'showReply' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                        no-unused-vars
+  536:21  error    'setShowReply' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                     no-unused-vars
+  537:10  error    'replyText' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                        no-unused-vars
+  537:21  error    'setReplyText' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                     no-unused-vars
+  538:10  error    'replyAttachment' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                  no-unused-vars
+  538:27  error    'setReplyAttachment' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u               no-unused-vars
+  539:10  error    'uploadingImage' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                   no-unused-vars
+  539:26  error    'setUploadingImage' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                no-unused-vars
+  540:10  error    'editingCommentId' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                 no-unused-vars
+  540:28  error    'setEditingCommentId' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u              no-unused-vars
+  541:10  error    'editCommentText' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                  no-unused-vars
+  541:27  error    'setEditCommentText' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u               no-unused-vars
+  542:11  error    'user' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                             no-unused-vars
+  542:17  error    'dbUser' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                           no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\LandingPages\About.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  2:29  error  'useMotionValue' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  2:45  error  'useSpring' is defined but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\LandingPages\CTA.jsx
+    2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                    no-unused-vars
+    2:18  error  'useTransform' is defined but never used. Allowed unused vars must match /^[A-Z_]/u              no-unused-vars
+   54:11  error  'scrollYProgress' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  114:20  error  'Icon' is defined but never used                                                                 no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\LandingPages\FAQ.jsx
+    2:10   error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        no-unused-vars
+  102:29   error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+  100 |             <motion.div
+  101 |               key={i}
+> 102 |               initial={{ x: Math.random() * (typeof window !== "undefined" ? window.innerWidth : 1440), y: Math.random() * (typeof window !== "undefined" ? window.innerHeight : 900), scale: 0 }}
+      |                             ^^^^^^^^^^^^^ Cannot call impure function
+  103 |               animate={{ y: [null, -30, 30, -30], opacity: [0, 0.5, 0], scale: [0, 1, 0] }}
+  104 |               transition={{ duration: 5 + Math.random() * 5, repeat: Infinity, delay: Math.random() * 5 }}
+  105 |               className="absolute w-1 h-1 rounded-full"                                                                                      react-hooks/purity
+  102:108  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+  100 |             <motion.div
+  101 |               key={i}
+> 102 |               initial={{ x: Math.random() * (typeof window !== "undefined" ? window.innerWidth : 1440), y: Math.random() * (typeof window !== "undefined" ? window.innerHeight : 900), scale: 0 }}
+      |                                                                                                            ^^^^^^^^^^^^^ Cannot call impure function
+  103 |               animate={{ y: [null, -30, 30, -30], opacity: [0, 0.5, 0], scale: [0, 1, 0] }}
+  104 |               transition={{ duration: 5 + Math.random() * 5, repeat: Infinity, delay: Math.random() * 5 }}
+  105 |               className="absolute w-1 h-1 rounded-full"       react-hooks/purity
+  104:43   error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+  102 |               initial={{ x: Math.random() * (typeof window !== "undefined" ? window.innerWidth : 1440), y: Math.random() * (typeof window !== "undefined" ? window.innerHeight : 900), scale: 0 }}
+  103 |               animate={{ y: [null, -30, 30, -30], opacity: [0, 0.5, 0], scale: [0, 1, 0] }}
+> 104 |               transition={{ duration: 5 + Math.random() * 5, repeat: Infinity, delay: Math.random() * 5 }}
+      |                                           ^^^^^^^^^^^^^ Cannot call impure function
+  105 |               className="absolute w-1 h-1 rounded-full"
+  106 |               style={{
+  107 |                 left: `${Math.random() * 100}%`,                                              react-hooks/purity
+  104:87   error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+  102 |               initial={{ x: Math.random() * (typeof window !== "undefined" ? window.innerWidth : 1440), y: Math.random() * (typeof window !== "undefined" ? window.innerHeight : 900), scale: 0 }}
+  103 |               animate={{ y: [null, -30, 30, -30], opacity: [0, 0.5, 0], scale: [0, 1, 0] }}
+> 104 |               transition={{ duration: 5 + Math.random() * 5, repeat: Infinity, delay: Math.random() * 5 }}
+      |                                                                                       ^^^^^^^^^^^^^ Cannot call impure function
+  105 |               className="absolute w-1 h-1 rounded-full"
+  106 |               style={{
+  107 |                 left: `${Math.random() * 100}%`,  react-hooks/purity
+  107:26   error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+  105 |               className="absolute w-1 h-1 rounded-full"
+  106 |               style={{
+> 107 |                 left: `${Math.random() * 100}%`,
+      |                          ^^^^^^^^^^^^^ Cannot call impure function
+  108 |                 top: `${Math.random() * 100}%`,
+  109 |                 background: i % 2 === 0 ? "#17B6A8" : "#F5C842",
+  110 |               }}                                                                                                                                                                                                                                                                                                                                       react-hooks/purity
+  108:25   error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+  106 |               style={{
+  107 |                 left: `${Math.random() * 100}%`,
+> 108 |                 top: `${Math.random() * 100}%`,
+      |                         ^^^^^^^^^^^^^ Cannot call impure function
+  109 |                 background: i % 2 === 0 ? "#17B6A8" : "#F5C842",
+  110 |               }}
+  111 |             />                                                                                                                                                                                                                                                                                                                                                                                 react-hooks/purity
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\LandingPages\Features.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\LandingPages\Hero.jsx
+   2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  75:43  error  '_' is defined but never used                                                  no-unused-vars
+  75:46  error  'i' is defined but never used                                                  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\LandingPages\HowItWorks.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\LandingPages\NewsLetter.jsx
+  2:27  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\LandingPages\PricingPreview.jsx
+   2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   no-unused-vars
+  85:26  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+  83 |     const [display, setDisplay] = useState(num);
+  84 |     useEffect(() => {
+> 85 |         if (num === 0) { setDisplay(0); return; }
+     |                          ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  86 |         let cur = 0; const step = num / 28;
+  87 |         const t = setInterval(() => {
+  88 |             cur += step;  react-hooks/set-state-in-effect
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\LandingPages\Stats.jsx
+   2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  61:33  error  'a' is defined but never used                                                  no-unused-vars
+  61:36  error  'b' is defined but never used                                                  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\LandingPages\Testimonials.jsx
+  76:6  warning  React Hook useEffect has a missing dependency: 'goTo'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\LandingPages\Trending.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Leaderboard\Leaderboard.jsx
+    5:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           no-unused-vars
+   44:17  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+  42 |   <div className="fixed inset-0 pointer-events-none z-50 overflow-hidden">
+  43 |     {Array.from({ length: 90 }, (_, i) => {
+> 44 |       const x = Math.random() * 100, dur = 2 + Math.random() * 2.5, del = Math.random() * 2;
+     |                 ^^^^^^^^^^^^^ Cannot call impure function
+  45 |       const col = COLORS[i % COLORS.length], sz = 4 + Math.random() * 7, rot = Math.random() * 360;
+  46 |       return (
+  47 |         <motion.div key={i} className="absolute rounded-sm"                                                                                         react-hooks/purity
+   44:48  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+  42 |   <div className="fixed inset-0 pointer-events-none z-50 overflow-hidden">
+  43 |     {Array.from({ length: 90 }, (_, i) => {
+> 44 |       const x = Math.random() * 100, dur = 2 + Math.random() * 2.5, del = Math.random() * 2;
+     |                                                ^^^^^^^^^^^^^ Cannot call impure function
+  45 |       const col = COLORS[i % COLORS.length], sz = 4 + Math.random() * 7, rot = Math.random() * 360;
+  46 |       return (
+  47 |         <motion.div key={i} className="absolute rounded-sm"                                                          react-hooks/purity
+   44:75  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+  42 |   <div className="fixed inset-0 pointer-events-none z-50 overflow-hidden">
+  43 |     {Array.from({ length: 90 }, (_, i) => {
+> 44 |       const x = Math.random() * 100, dur = 2 + Math.random() * 2.5, del = Math.random() * 2;
+     |                                                                           ^^^^^^^^^^^^^ Cannot call impure function
+  45 |       const col = COLORS[i % COLORS.length], sz = 4 + Math.random() * 7, rot = Math.random() * 360;
+  46 |       return (
+  47 |         <motion.div key={i} className="absolute rounded-sm"                               react-hooks/purity
+   45:55  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+  43 |     {Array.from({ length: 90 }, (_, i) => {
+  44 |       const x = Math.random() * 100, dur = 2 + Math.random() * 2.5, del = Math.random() * 2;
+> 45 |       const col = COLORS[i % COLORS.length], sz = 4 + Math.random() * 7, rot = Math.random() * 360;
+     |                                                       ^^^^^^^^^^^^^ Cannot call impure function
+  46 |       return (
+  47 |         <motion.div key={i} className="absolute rounded-sm"
+  48 |           style={{ left: `${x}%`, top: -20, width: sz, height: sz, background: col, rotate: rot }}                           react-hooks/purity
+   45:80  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+  43 |     {Array.from({ length: 90 }, (_, i) => {
+  44 |       const x = Math.random() * 100, dur = 2 + Math.random() * 2.5, del = Math.random() * 2;
+> 45 |       const col = COLORS[i % COLORS.length], sz = 4 + Math.random() * 7, rot = Math.random() * 360;
+     |                                                                                ^^^^^^^^^^^^^ Cannot call impure function
+  46 |       return (
+  47 |         <motion.div key={i} className="absolute rounded-sm"
+  48 |           style={{ left: `${x}%`, top: -20, width: sz, height: sz, background: col, rotate: rot }}  react-hooks/purity
+  154:26  error  'Icon' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        no-unused-vars
+  184:24  error  'Icon' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        no-unused-vars
+  319:14  error  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           no-unused-vars
+  319:17  error  Empty block statement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   no-empty
+  348:14  error  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           no-unused-vars
+  348:17  error  Empty block statement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   no-empty
+  406:28  error  'Icon' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Mentor\AIMentorPage.jsx
+   2:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                     no-unused-vars
+  33:9   error    'fileInputRef' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                      no-unused-vars
+  42:6   warning  React Hook useEffect has a missing dependency: 'fetchSessions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  68:14  error    'err' is defined but never used                                                                                   no-unused-vars
+  89:14  error    'err' is defined but never used                                                                                   no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\News\NewsPage.jsx
+   2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  78:14  error  'err' is defined but never used                                                no-unused-vars
+  91:14  error  'err' is defined but never used                                                no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Onboarding\Onboarding.jsx
+  11:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Onboarding\OnboardingFlow.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Onboarding\StepCareerTimeline.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Onboarding\StepIndicator.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Onboarding\StepRole.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Onboarding\StepSkills.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Quiz\QuizGenerator.jsx
+   5:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+  28:9   error  'user' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\Sessions\ConceptualSessions.jsx
+   2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  78:14  error  'err' is defined but never used                                                no-unused-vars
+  91:14  error  'err' is defined but never used                                                no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\SkillGap\SkillGapAnalysis.jsx
+   2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u               no-unused-vars
+  39:7   error  'heroImages' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\TipsResources\BookmarkButton.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\TipsResources\TipsResources.jsx
+    2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  183:43  error  'catIndex' is defined but never used                                           no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\pages\TrendingPage.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\OneDrive\Desktop\SkillVoyager.AI\frontend\src\providers\AuthProvider.jsx
+  17:14  error  Fast refresh only works when a file only exports components. Move your React context(s) to a separate file  react-refresh/only-export-components
+  24:7   error  'saveUserToDb' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                no-unused-vars
+  79:17  error  Unnecessary try/catch wrapper                                                                               no-useless-catch
+
+Γ£û 167 problems (159 errors, 8 warnings)
+

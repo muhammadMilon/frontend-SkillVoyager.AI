@@ -1,0 +1,94 @@
+﻿
+> frontend-skillvoyager@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 16 modules transformed.
+node.exe : [31mΓ£ù[39m 
+Build failed in 166ms
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (  
+  [31mΓ£ù[39m Build fa   
+ iled in 166ms:String)    
+ [], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+[31merror during build:
+[31m[vite:esbuild] 
+Transform failed with 1 
+error:
+C:/Users/HP/OneDrive/Deskt
+op/SkillVoyager.AI/fronten
+d/src/pages/Dashboard/Acti
+onableDashboard.jsx:22:2: 
+ERROR: Expected "}" but 
+found "ExternalLink"[31m
+file: [36mC:/Users/HP/One
+Drive/Desktop/SkillVoyager
+.AI/frontend/src/pages/Das
+hboard/ActionableDashboard
+.jsx:22:2[31m
+[33m
+[33mExpected "}" but 
+found "ExternalLink"[33m
+20 |    Map,
+21 |    HelpCircle
+22 |    ExternalLink, 
+MousePointer2, Settings, 
+History,
+   |    ^
+23 |    LayoutDashboard,
+24 |    SettingsIcon,
+[31m
+    at 
+failureErrorWithLog (C:\Us
+ers\HP\OneDrive\Desktop\Sk
+illVoyager.AI\frontend\nod
+e_modules\esbuild\lib\main
+.js:1467:15)
+    at C:\Users\HP\OneDriv
+e\Desktop\SkillVoyager.AI\
+frontend\node_modules\esbu
+ild\lib\main.js:736:50
+    at responseCallbacks.<
+computed> (C:\Users\HP\One
+Drive\Desktop\SkillVoyager
+.AI\frontend\node_modules\
+esbuild\lib\main.js:603:9)
+    at 
+handleIncomingPacket (C:\U
+sers\HP\OneDrive\Desktop\S
+killVoyager.AI\frontend\no
+de_modules\esbuild\lib\mai
+n.js:658:12)
+    at 
+Socket.readFromStdout (C:\
+Users\HP\OneDrive\Desktop\
+SkillVoyager.AI\frontend\n
+ode_modules\esbuild\lib\ma
+in.js:581:7)
+    at Socket.emit 
+(node:events:519:28)
+    at addChunk (node:inte
+rnal/streams/readable:561:
+12)
+    at readableAddChunkPus
+hByteMode (node:internal/s
+treams/readable:512:3)
+    at Readable.push (node
+:internal/streams/readable
+:392:5)
+    at Pipe.onStreamRead (
+node:internal/stream_base_
+commons:189:23)[39m
