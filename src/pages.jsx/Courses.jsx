@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import _courses from "../../data/coursesData";
-import AllTopicsPage from "./AllTopicsPage";
+import AllTopicsPage from "./Alltopicspage";
 
 // ── BACKEND URL ───────────────────────────────────────────────────────────────
 const BACKEND_URL =
