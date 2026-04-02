@@ -10,7 +10,8 @@ node_modules
 dist
 dist-ssr
 *.local
-
+.env.development
+.env.production
 # Editor directories and files......
 .vscode/*
 !.vscode/extensions.json
@@ -21,3 +22,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+node_modules
